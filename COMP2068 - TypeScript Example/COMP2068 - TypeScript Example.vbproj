@@ -57,9 +57,7 @@
     <Reference Include="System.Web.Services" />
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="img\" />
-  </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
     <Import Include="Microsoft.VisualBasic" />
     <Import Include="System" />
@@ -86,12 +84,21 @@
   <ItemGroup>
     <Content Include="css\app.css" />
     <Content Include="css\normalize.css" />
+    <Content Include="img\slotmachine.jpg" />
     <Content Include="index.html" />
     <Content Include="packages.config" />
     <None Include="Scripts\jquery-2.1.1.intellisense.js" />
     <Content Include="Scripts\app.js" />
+    <Content Include="Scripts\createjs-2013.12.12.min.js" />
     <Content Include="Scripts\jquery-2.1.1.js" />
     <Content Include="Scripts\jquery-2.1.1.min.js" />
+    <Content Include="Scripts\typings\createjs-lib\createjs-lib.d.ts" />
+    <Content Include="Scripts\typings\createjs\createjs.d.ts" />
+    <Content Include="Scripts\typings\easeljs\easeljs.d.ts" />
+    <Content Include="Scripts\typings\jquery\jquery.d.ts" />
+    <Content Include="Scripts\typings\preloadjs\preloadjs.d.ts" />
+    <Content Include="Scripts\typings\soundjs\soundjs.d.ts" />
+    <Content Include="Scripts\typings\tweenjs\tweenjs.d.ts" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
